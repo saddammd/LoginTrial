@@ -21,7 +21,7 @@
    
     </p>
     
-<form:form action = "http://localhost:8080/com.login.trial/logout" method ="post">
+<form:form action = "${pageContext.request.contextPath}/logout" method ="post">
 <input type=submit value="logout" class="btn btn-primary"/>
 </form:form>
 

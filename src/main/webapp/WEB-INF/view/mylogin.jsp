@@ -38,7 +38,7 @@
 </head>
 <body>
 <div class="login-form">
-    <form:form action="http://localhost:8080/com.login.trial/processLogin" method="post">
+    <form:form action="${pageContext.request.contextPath}/processLogin" method="post">
         <h2 class="text-center">Log in</h2>       
         <div class="form-group">
             <input type="text" class="form-control" name="username" placeholder="Username" required="required">
